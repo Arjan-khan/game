@@ -96,6 +96,13 @@ body,html{
     background-color: white;
 }
 
+#compmov img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #000000;
+}
+
 #bot{
     color: #000000;
 }
