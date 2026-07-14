@@ -139,38 +139,6 @@ body,html{
     background-color: #000000;
 }
 
-/* ========== Tablet ========== */
-@media (max-width: 768px) {
-
-    .choices{
-        flex-wrap: wrap;
-        gap: 30px;
-    }
-
-    .choice{
-        width: 130px;
-        height: 130px;
-    }
-
-    .choice img{
-        width: 120px;
-        height: 120px;
-    }
-
-    #points{
-        gap: 80px;
-    }
-
-    #name{
-        gap: 70px;
-    }
-
-    #compmov{
-        width: 130px;
-        height: 130px;
-    }
-}
-
 /* ========== Mobile ========== */
 @media (max-width: 480px) {
 
@@ -195,6 +163,17 @@ body,html{
         height: 90px;
     }
 
+    #compmov{
+        width: 100px;
+        height: 100px;
+    }
+
+    #compmov img{
+        width: 90px;
+        height: 90px;
+    }
+
+
     #points{
         gap: 40px;
         margin-top: 30px;
@@ -209,11 +188,6 @@ body,html{
         font-size: 14px;
     }
 
-    #compmov{
-        width: 100px;
-        height: 100px;
-    }
-
     #box{
         width: 180px;
         height: 55px;
@@ -224,4 +198,5 @@ body,html{
         height: 50px;
         font-size: 14px;
     }
+}     
 }     
